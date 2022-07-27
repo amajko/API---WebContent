@@ -1,0 +1,29 @@
+1.
+open eclipse use any workspace folder (like 3DIT)
+2.
+clone hg repo Guardian into that workspace from the remote server
+3.
+close eclsipe
+4.
+re-open eclipse but now use the repo folder as workspace (like 3DIT\Guardian)
+5.
+"File" "New" "Project" "web" "Dynamic"
+6.
+type gamewardenServlets-0.3
+7.
+type gJPA
+8.
+rite-clik on gamewarden project, "Properties" "Project facets" add "JPA"
+9. Click on Further configuration needed and pick the jar file and fill the form. Location of jar file is in lib folder:
+gamewardernservlets-0.3/WebContent/Lib/postgre..jar
+10. Add database connection information from Gamewarden application Wiki.
+11. Add this db connection to gJPA project.
+
+Now
+a. should be able to edit java in eclispe and directlyt update the hg repo on the remote server
+
+b. workspace now remains at repo folder level (like 3DIT\Guardian)
+
+c. rite-clik on project "team" and commit
+
+c. use "Resource" perspective as hg workbench to push

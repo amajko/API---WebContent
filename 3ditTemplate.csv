@@ -1,0 +1,13 @@
+Functionality,Priority,Type (M/A),Category,TestCase Name-G.Test Case Name ,Type,Description,Dependencies,Date Last Run,Sprint,Build,Test Status-G.Status to Report,JIRA,Comments-G.Optional Log Statement
+3DIT Notes:,Copy these 8 lines over your header,,,,,,,,,,,,
+3DIT Notes:,you can change the order of any column,,,,,,,,,,,,
+3DIT Notes:,"Valid usernames =  123E2E123, 123ALPHA123",,,,,,,,,,,,
+3DIT Notes:,permanently mount a drive letter to \\amajko4strvr1\c as user amajko4strvr1\{username} with pwd {same as username},,,,,,,,,,,,
+3DIT Notes:,save each sheet as a separate .csv file (without spaces in the filename)  to (your driveletter)\temp\{username},,,,,,,,,,,,
+3DIT Notes:,Guardian will consider each new file version a new test run,,,,,,,,,,,,
+3DIT Notes:,,,,"above text after the ""-"" should not be changed",,,,,,,"above text after the ""-"" should not be changed",,"above text after the ""-"" should not be changed"
+3DIT Notes:,,,,"Guardian will prepend this with ""{some signature related to username}""",,,,,,,,,
+,,,,,,,,,,,,,
+,,,,a test case,,,,,,,fail,,
+,,,,another test case very long test case with many parmaters and configuration settings,,,,,,,pAss,,something to test validation
+,,,,a 3rd tc,,,,,,,I dunno,,something more to say about this

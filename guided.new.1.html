@@ -1,0 +1,1098 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Guardian</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css"
+	href="css/gamewardenstylesheet.new.css" />
+<script language="javascript" type="text/javascript"
+	src="javascript/prototype.js">
+</script>
+<script language="javascript" type="text/javascript">	function link_shadow_up1()
+{
+	var str='';
+	var browser_type  =   navigator.appName;
+	if( browser_type  == 'Microsoft Internet Explorer')
+	{
+		str+="<div  class='portletHeader portletHeader3b'>Deploy and Test in 3DIT</div>";
+		document.write(str);
+	}
+	else
+	{
+		str+="<div  class='portletHeader portletHeader2b'>Deploy and Test in 3DIT</div>";
+		document.write(str);
+	}
+}
+
+	function link_shadow_up2()
+{
+	var str='';
+	var browser_type  =   navigator.appName;
+	if( browser_type  == 'Microsoft Internet Explorer')
+	{
+		str+="<div  class='portletHeader portletHeader3'>Tasks</div>";
+		document.write(str);
+	}
+	else
+	{
+		str+="<div  class='portletHeader portletHeader2'>Tasks</div>";
+		document.write(str);
+	}
+}
+	function link_shadow_up3()
+{
+	var str='';
+	var browser_type  =   navigator.appName;
+	if( browser_type  == 'Microsoft Internet Explorer')
+	{
+		str+="<div  class='portletHeader portletHeader3'>Reports</div>";
+		document.write(str);
+	}
+	else
+	{
+		str+="<div  class='portletHeader portletHeader2'>Reports</div>";
+		document.write(str);
+	}
+}
+	function link_shadow_up4()
+{
+	var str='';
+	var browser_type  =   navigator.appName;
+	if( browser_type  == 'Microsoft Internet Explorer')
+	{
+		str+="<div  class='portletHeader portletHeader3'>Diagrams</div>";
+		document.write(str);
+	}
+	else
+	{
+		str+="<div  class='portletHeader portletHeader2'>Diagrams</div>";
+		document.write(str);
+	}
+}
+	function link_shadow_up5()
+{
+	var str='';
+	var browser_type  =   navigator.appName;
+	if( browser_type  == 'Microsoft Internet Explorer')
+	{
+		str+="<div  class='portletHeader portletHeader3'>Administration</div>";
+		document.write(str);
+	}
+	else
+	{
+		str+="<div  class='portletHeader portletHeader2'>Administration</div>";
+		document.write(str);
+	}
+}
+
+
+<!-- handles display of ea tabbed page -->
+function showHideDiv1()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("pageContent2").style.display = "none";
+            document.getElementById("nav_job").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent3").style.display = "none";
+            document.getElementById("nav_reports").style.backgroundColor = "#E5E5E5";
+			document.getElementById("pageContent1").style.display = "inline";
+            document.getElementById("nav_guardian").style.backgroundColor = "#BABAE6";
+            document.getElementById("pageContent4").style.display = "none";
+            document.getElementById("nav_userNetwork").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent5").style.display = "none";
+            document.getElementById("nav_admin").style.backgroundColor = "#E5E5E5";
+    }
+ function showHideDiv2()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("pageContent1").style.display = "none";
+            document.getElementById("nav_guardian").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent2").style.display = "inline";
+            document.getElementById("nav_job").style.backgroundColor = "#BABAE6";
+            document.getElementById("pageContent3").style.display = "none";
+            document.getElementById("nav_reports").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent4").style.display = "none";
+            document.getElementById("nav_userNetwork").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent5").style.display = "none";
+            document.getElementById("nav_admin").style.backgroundColor = "#E5E5E5";
+    }
+ function showHideDiv3()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("pageContent1").style.display = "none";
+            document.getElementById("nav_guardian").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent3").style.display = "inline";
+            document.getElementById("nav_reports").style.backgroundColor = "#BABAE6";
+            document.getElementById("pageContent2").style.display = "none";
+            document.getElementById("nav_job").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent4").style.display = "none";
+            document.getElementById("nav_userNetwork").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent5").style.display = "none";
+            document.getElementById("nav_admin").style.backgroundColor = "#E5E5E5";
+    }
+
+function showHideDiv4()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("pageContent1").style.display = "none";
+            document.getElementById("nav_guardian").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent3").style.display = "none";
+            document.getElementById("nav_reports").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent5").style.display = "none";
+            document.getElementById("nav_admin").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent4").style.display = "inline";
+            document.getElementById("nav_userNetwork").style.backgroundColor = "#BABAE6";
+            document.getElementById("pageContent2").style.display = "none";
+            document.getElementById("nav_job").style.backgroundColor = "#E5E5E5";
+    }
+
+function showHideDiv5()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("pageContent1").style.display = "none";
+            document.getElementById("nav_guardian").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent5").style.display = "inline";
+            document.getElementById("nav_admin").style.backgroundColor = "#BABAE6";
+            document.getElementById("pageContent2").style.display = "none";
+            document.getElementById("nav_job").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent3").style.display = "none";
+            document.getElementById("nav_reports").style.backgroundColor = "#E5E5E5";
+            document.getElementById("pageContent4").style.display = "none";
+            document.getElementById("nav_userNetwork").style.backgroundColor = "#E5E5E5";
+    }
+<!-- handles tabs within any MAin Prtlet on any page -->
+<!-- page 1 -->
+ function showHideDivDisplayPortletm1()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("help1").style.display = "none";
+			document.getElementById("clickh1").style.color = "#000000";
+			//document.getElementById("click2").class = "offstate"
+            document.getElementById("main1").style.display = "inline";
+			document.getElementById("clickm1").style.color = "#993366";
+			//document.getElementById("click1").class = "onstate"
+    }
+ function showHideDivDisplayPortleth1()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("main1").style.display = "none";
+			document.getElementById("clickm1").style.color = "#000000";
+			//document.getElementById("click1").class = "offstate"
+             document.getElementById("help1").style.display = "inline";
+			document.getElementById("clickh1").style.color = "#993366";
+			//document.getElementById("click2").class = "onstate"
+    }
+<!-- page 2 -->
+ function showHideDivDisplayPortletm2()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("help2").style.display = "none";
+			document.getElementById("clickh2").style.color = "#000000";
+			//document.getElementById("click2").class = "offstate"
+            document.getElementById("main2").style.display = "inline";
+			document.getElementById("clickm2").style.color = "#993366";
+			//document.getElementById("click1").class = "onstate"
+    }
+ function showHideDivDisplayPortleth2()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("main2").style.display = "none";
+			document.getElementById("clickm2").style.color = "#000000";
+			//document.getElementById("click1").class = "offstate"
+             document.getElementById("help2").style.display = "inline";
+			document.getElementById("clickh2").style.color = "#993366";
+			//document.getElementById("click2").class = "onstate"
+    }
+<!-- page 3 -->
+ function showHideDivDisplayPortletm3()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("help3").style.display = "none";
+			document.getElementById("clickh3").style.color = "#000000";
+			//document.getElementById("click2").class = "offstate"
+            document.getElementById("main3").style.display = "inline";
+			document.getElementById("clickm3").style.color = "#993366";
+			//document.getElementById("click1").class = "onstate"
+    }
+ function showHideDivDisplayPortleth3()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("main3").style.display = "none";
+			document.getElementById("clickm3").style.color = "#000000";
+			//document.getElementById("click1").class = "offstate"
+             document.getElementById("help3").style.display = "inline";
+			document.getElementById("clickh3").style.color = "#993366";
+			//document.getElementById("click2").class = "onstate"
+    }
+<!-- page 4 -->
+ function showHideDivDisplayPortletm4()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("help4").style.display = "none";
+			document.getElementById("clickh4").style.color = "#000000";
+			//document.getElementById("click2").class = "offstate"
+            document.getElementById("main4").style.display = "inline";
+			document.getElementById("clickm4").style.color = "#993366";
+			//document.getElementById("click1").class = "onstate"
+    }
+ function showHideDivDisplayPortleth4()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("main4").style.display = "none";
+			document.getElementById("clickm4").style.color = "#000000";
+			//document.getElementById("click1").class = "offstate"
+             document.getElementById("help4").style.display = "inline";
+			document.getElementById("clickh4").style.color = "#993366";
+			//document.getElementById("click2").class = "onstate"
+    }
+<!-- page 5 -->
+ function showHideDivDisplayPortletm5()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("help5").style.display = "none";
+			document.getElementById("clickh5").style.color = "#000000";
+			//document.getElementById("click2").class = "offstate"
+            document.getElementById("main5").style.display = "inline";
+			document.getElementById("clickm5").style.color = "#993366";
+			//document.getElementById("click1").class = "onstate"
+    }
+ function showHideDivDisplayPortleth5()
+    {
+        var divstyle = new String();
+        //divstyle = document.getElementById("pageContent").style.visibility;
+            document.getElementById("main5").style.display = "none";
+			document.getElementById("clickm5").style.color = "#000000";
+			//document.getElementById("click1").class = "offstate"
+             document.getElementById("help5").style.display = "inline";
+			document.getElementById("clickh5").style.color = "#993366";
+			//document.getElementById("click2").class = "onstate"
+    }
+
+
+</script>
+</head>
+
+<body id="guardian" style="margin: 0 auto;">
+	<center>
+		<!-- The name of this guardian template is 4 Columns of Joy. It is brought to you by The guardian Spy. Join the guardian Spy Email List at http://guardianspy.com/templates.html for more html guardian templates -->
+
+
+		<!-- START Application Logo -->
+		<div id="appLogo">
+			<!-- <h1 id="guardianSpyLogo">guardian Template</h1>	 -->
+			<img src="images/combg3.png" width="110" height="110">
+
+		</div>
+		<!-- END Application Logo -->
+
+
+		<!-- START Top Bar -->
+		<div id="topBar">
+			<!-- START Main Navigation -->
+			<ul id="mainNav">
+				<li id="nav_guardian" onclick="showHideDiv1()"><a href="#">Home</a>
+				</li>
+				<li id="nav_job" onclick="showHideDiv2()"><a href="#">Tasks</a>
+				</li>
+				<li id="nav_reports" onclick="showHideDiv3()"><a href="#">Reports</a>
+				</li>
+				<li id="nav_userNetwork" onclick="showHideDiv4()"><a href="#">Diagrams</a>
+				</li>
+				<li id="nav_admin" onclick="showHideDiv5()"><a href="#">Administration</a>
+				</li>
+			</ul>
+			<!-- END Main Navigation -->
+
+
+
+
+		</div>
+		<!-- END Top Bar -->
+
+
+		<!-- START Title Bar -->
+		<div id="titleBar">
+			<!-- START User & Role -->
+			<span id="userName"><h2>Guardian</h2></span>
+			<!-- END User & Role -->
+
+			<!-- START Page Title -->
+			<span id="pageTitle"><h3>Guided Tour</h3> </span>
+			<!-- END Page Title -->
+
+			<!-- START news Title -->
+			<span id="newsTitle"><h4><i>Now with nDTHM&#0153; Technology</i></h4> </span>
+			<!-- END news Title -->
+		</div>
+		<!-- END Title Bar -->
+		<div>&nbsp;</div>
+
+		<!-- START Page Content 1 -->
+		<div id="pageContent1">
+
+			<!-- START Portlet Column 1 -->
+			<div id="portletColumn1"></div>
+			<!-- END Portlet Column 1 -->
+
+
+			<!-- START Portlet Column 2 -->
+			<div id="portletColumn1" style="height: auto;">
+
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletLarge" style="float: left;">
+					<div style="width: 880px; float: center;">
+						<!-- 880 to 1080 -->
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up1();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+
+					</div>
+					<div class="" style="width: 1079px; float: left;">
+						<!--  879 to 1079 -->
+						<div
+							style="width: 1078px; height: 628px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<!-- 878 to 1078 -->
+							<div style="width: 1065px; height: 628px; float: left;">
+								<!-- 865 to 1065 -->
+								<div id="viewjobs" style="width: 870px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+
+								<div id="subNav" style="height: 15px; float: left;">
+									<div id="clickm1"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortletm1()">Tour</div>
+									<div id="clickh1"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortleth1()">&nbsp;|&nbsp;Help</div>
+								</div>
+								<!-- begin main tab of this main portlet -->
+								<div id="main1">
+									<div class="portletContentScroll"
+										style="width: 100%; height: 623px; float: left;">
+										Welcome - <b>Click Tabs Above...</b> <br /> <a
+											href="/Guardian">Or use new Portal to the Guardian
+											application</a> <br /><a
+											href="/g/main.html"><i>Park Management</i></a> <br /> <br /> <a
+											href="More?method=html&action=view&url=jdbc:postgresql://dchiecapp06:5432/elephant&user=gamewarden&password=password&sql=select ts.tc_name, tr.tc_run, tr.run_date, tr.code_name, tr.mount_point, tr.build_level, td.tc_full_name, td.business_case, ts.status from gw_test_status ts right outer join gw_test_runs tr on tr.tc_run=ts.tc_run and ts.tc_name is not null and tr.tc_run = (select max(ts1.tc_run) from gw_test_status ts1 where ts1.tc_name=ts.tc_name) left outer join gw_test_details td on td.tc_name=ts.tc_name where ts.tc_name is not null and tr.code_name is not null order by tr.tc_run,ts.tc_name"
+											target="lateststatus"><b>Click for Latest Status Below...</b>  </a> <br /> <br />
+										<iframe width="1060" height="618" name="lateststatus"></iframe>
+										<!-- 860 to 1060-->
+										-->
+
+									</div>
+
+								</div>
+								<!-- end main tab of this main protlet -->
+								<!-- begin help tab of this main portlet -->
+								<div id="help1" style="display: none">...To Do...</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+			<!-- END Portlet Column 2 -->
+
+
+			<!-- START Portlet Column 3 -->
+			<!-- END Portlet Column 3 -->
+		</div>
+		<!-- END Page Content 1-->
+
+		<!-- START Page Content 2-->
+		<div id="pageContent2" style="display: none">
+			<!-- START Portlet Column 1 -->
+			<div id="portletColumn1" style="height: auto;">
+
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletSmall" style="float: left;">
+					<div style="width: 280px; float: left;">
+						<!-- <div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up2();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div> -->
+
+					</div>
+					<div class="" style="width: 279px; float: left;">
+						<div
+							style="width: 278px; height: 328px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 265px; height: 328px; float: left;">
+								<div id="viewjobs" style="width: 270px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+
+								<div id="subNav" style="height: 15px; float: left;">
+									<div id="clickm2"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortletm2()">Tour</div>
+									<div id="clickh2"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortleth2()">&nbsp;|&nbsp;Help</div>
+								</div>
+								<!-- begin main tab of this main portlet -->
+								<div id="main2">
+									<div class="portletContent"
+										style="width: 100%; float: left;">
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr>
+												<th class="jobIdColumn">Tasks</th>
+											</tr>
+											<tr>
+												<td>(right click to open link in new tab)</td>
+											</tr>
+										</table>
+
+
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr class="alternateRow">
+												<td class="jobIdColumn"><a href="Begin"
+													target="output2">Deploy and Test</a></td>
+											</tr>
+											<tr>
+												<td class="jobIdColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="jobIdColumn"><a href="UseEdit"
+													target="output2">Create and Edit Data</a></td>
+											</tr>
+											<tr>
+												<td class="jobIdColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="jobIdColumn"><a href="Upload"
+													target="output2">Upload Your Test Results</a></td>
+											</tr>
+											<tr>
+												<td class="jobIdColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="jobIdColumn"><b><a href="/editable_dropdown_gw.2_samplecode.html"
+													target="output2">1-Stop Selector Tool</a></b><i>...prototype...</i></td>
+											</tr>
+											<tr>
+												<td class="jobIdColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="jobIdColumn"><b><a href="/draganddrop_gw_samplecode.html"
+													target="output2">1-Stop DnD Tool</a></b><i>...prototype...</i></td>
+											</tr>
+											<tr>
+												<td class="jobIdColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="jobIdColumn">-</td>
+											</tr>
+											<tr>
+												<td class="jobIdColumn">&nbsp;</td>
+											</tr>
+										</table>
+									</div>
+
+								</div>
+								<!-- end main tab of this main protlet -->
+								<!-- begin help tab of this main portlet -->
+								<div id="help2" style="display: none">...To Do...</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+			<!-- END Portlet Column 1 -->
+
+
+			<!-- START Portlet Column 2 -->
+<!-- 			<div id="portletColumn2" style="height: auto; float: center"></div>
+ -->			<!-- END Portlet Column 2 -->
+
+
+			<!-- START Portlet Column 3 -->
+			<div id="portletColumn3" style="height: auto; float:left;">
+
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletLarge2" style="float: left;">
+					<div style="width: 880px; float: left;">
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up2();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+
+					</div>
+					<div class="" style="width: 879px; float: left;">
+						<div
+							style="width: 878px; height: 628px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 865px; height: 628px; float: left;">
+								<div id="viewjobs" style="width: 870px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+
+								</div>
+								<div id="portletContentScroll" style="width: 100%; float: left;">
+									<iframe width="860" height="618" name="output2"></iframe>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+
+			<!-- END Portlet Column 3 -->
+		</div>
+
+		<!-- END Page Content 2-->
+
+		<!-- START Page Content 3-->
+		<div id="pageContent3" style="display: none">
+			<!-- START Portlet Column 1 -->
+			<div id="portletColumn1">
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletSmall" style="float: left;">
+					<div style="width: 280px; float: left;">
+	<!-- 					<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up3();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+ -->
+					</div>
+					<div class="" style="width: 279px; float: left;">
+						<div
+							style="width: 278px; height: 328px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 265px; height: 328px; float: left;">
+								<div id="viewjobs" style="width: 270px; height: 15px;">
+									<!-- <div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+
+								<div id="subNav" style="height: 15px; float: left;">
+									<div id="clickm3"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortletm3()">Tour</div>
+									<div id="clickh3"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortleth3()">&nbsp;|&nbsp;Help</div>
+								</div>
+								<!-- begin main tab of this main portlet -->
+								<div id="main3">
+									<div class="portletContent"
+										style="width: 100%; float: left;">
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr>
+												<th class="amountColumn">Reports</th>
+											</tr>
+											<tr>
+												<td>(right click to open link in new tab)</td>
+											</tr>
+										</table>
+
+
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr class="alternateRow">
+												<td class="amountColumn"><a href="UseView"
+													target="output3">Lists of Environments and Tests</a></td>
+											</tr>
+											<tr>
+												<td class="amountColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="amountColumn"><a
+													href="http://jiraweb/secure/IssueNavigator.jspa?mode=hide&requestId=19637"
+													target="output3">3DIT Defect Tracker</a><br />Issues and
+													Defects Opened by 3DIT</td>
+											</tr>
+											<tr>
+												<td class="amountColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="amountColumn">-</td>
+											</tr>
+											<tr>
+												<td class="amountColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="amountColumn">-</td>
+											</tr>
+											<tr>
+												<td class="amountColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="amountColumn">-</td>
+											</tr>
+											<tr>
+												<td class="amountColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="amountColumn">-</td>
+											</tr>
+											<tr>
+												<td class="amountColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="amountColumn">-</td>
+											</tr>
+											<tr>
+												<td class="amountColumn">&nbsp;</td>
+											</tr>
+										</table>
+									</div>
+
+								</div>
+								<!-- end main tab of this main protlet -->
+								<!-- begin help tab of this main portlet -->
+								<div id="help3" style="display: none">...To Do...</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+			<!-- END Portlet Column 1 -->
+
+
+			<!-- START Portlet Column 2 -->
+<!-- 			<div id="portletColumn2" style="height: auto; float: center"></div>
+ -->			<!-- END Portlet Column 2 -->
+
+
+			<!-- START Portlet Column 3 -->
+			<div id="portletColumn3" style="height: auto; float:left;">
+
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletLarge2" style="float: left;">
+					<div style="width: 880px; float: left;">
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up3();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+
+					</div>
+					<div class="" style="width: 879px; float: left;">
+						<div
+							style="width: 878px; height: 628px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 865px; height: 628px; float: left;">
+								<div id="viewjobs" style="width: 870px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+
+								<div id="portletContentScroll" style="width: 100%; float: left;">
+									<iframe width="860" height="618" name="output3"></iframe>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+
+			<!-- END Portlet Column 3 -->
+		</div>
+
+		<!-- END Page Content 3-->
+
+		<!-- START Page Content 4-->
+		<div id="pageContent4" style="display: none">
+			<!-- START Portlet Column 1 -->
+			<div id="portletColumn1">
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletSmall" style="float: left;">
+					<div style="width: 280px; float: left;">
+<!-- 						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up4();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+ -->
+					</div>
+					<div class="" style="width: 279px; float: left;">
+						<div
+							style="width: 278px; height: 328px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 265px; height: 328px; float: left;">
+								<div id="viewjobs" style="width: 270px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+
+								<div id="subNav" style="height: 15px; float: left;">
+									<div id="clickm4"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortletm4()">Tour</div>
+									<div id="clickh4"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortleth4()">&nbsp;|&nbsp;Help</div>
+								</div>
+								<!-- begin main tab of this main portlet -->
+								<div id="main4">
+									<div class="portletContent"
+										style="width: 100%; float: left;">
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr>
+												<th class="typeColumn">Diagrams</th>
+											</tr>
+											<tr>
+												<td>(right click to open link in new tab)</td>
+											</tr>
+										</table>
+
+
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr class="alternateRow">
+												<td class="typeColumn"><a href="ci.html"
+													target="output4">Continuous Integration</a></td>
+											</tr>
+											<tr>
+												<td class="typeColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="typeColumn"><a href="highlevelflow.html"
+													target="output4">High Level Flow</a></td>
+											</tr>
+											<tr>
+												<td class="typeColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="typeColumn"><a href="lowlevelprocess.html"
+													target="output4">Low Level Process</a></td>
+											</tr>
+											<tr>
+												<td class="typeColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="typeColumn"><a href="database.html"
+													target="output4">Database</a></td>
+											</tr>
+											<tr>
+												<td class="typeColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="typeColumn"><a href="pageflow.html"
+													target="output4">Site Map</a></td>
+											</tr>
+											<tr>
+												<td class="typeColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="typeColumn"><a href="engine.html"
+													target="output4">Engine (how the scripts interact)</a></td>
+											</tr>
+											<tr>
+												<td class="typeColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="typeColumn"><a href="innov.1.New%20Microsoft%20Office%20PowerPoint%20Presentation.htm"
+													target="output4">nDTHM&#0153;</a></td>
+											</tr>
+											<tr>
+												<td class="typeColumn">&nbsp;</td>
+											</tr>
+										</table>
+									</div>
+
+								</div>
+								<!-- end main tab of this main protlet -->
+								<!-- begin help tab of this main portlet -->
+								<div id="help4" style="display: none">...To Do...</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+
+			<!-- END Portlet Column 1 -->
+
+
+			<!-- START Portlet Column 2 -->
+<!-- 			<div id="portletColumn2" style="height: auto; float: center"></div>
+ -->			<!-- END Portlet Column 2 -->
+
+
+			<!-- START Portlet Column 3 -->
+			<div id="portletColumn3" style="height: auto; float:left;">
+
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletLarge2" style="float: left;">
+					<div style="width: 880px; float: left;">
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up4();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+
+					</div>
+					<div class="" style="width: 879px; float: left;">
+						<div
+							style="width: 878px; height: 628px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 865px; height: 628px; float: left;">
+								<div id="viewjobs" style="width: 870px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+								<div id="portletContentScroll" style="width: 100%; float: left;">
+									<iframe width="860" height="618" name="output4"></iframe>
+								</div>
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+
+			<!-- END Portlet Column 3 -->
+		</div>
+
+		<!-- END Page Content 4-->
+
+		<!-- START Page Content 5-->
+		<div id="pageContent5" style="display: none">
+			<!-- START Portlet Column 1 -->
+			<div id="portletColumn1">
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletSmall" style="float: left;">
+					<div style="width: 280px; float: left;">
+<!-- 						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up5();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+ -->
+					</div>
+					<div class="" style="width: 279px; float: left;">
+						<div
+							style="width: 278px; height: 328px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 265px; height: 328px; float: left;">
+								<div id="viewjobs" style="width: 270px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+
+								<div id="subNav" style="height: 15px; float: left;">
+									<div id="clickm5"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortletm5()">Tour</div>
+									<div id="clickh5"
+										style="width: 75px; height: 15px; float: left;"
+										onclick="showHideDivDisplayPortleth5()">&nbsp;|&nbsp;Help</div>
+								</div>
+								<!-- begin main tab of this main portlet -->
+								<div id="main5">
+									<div class="portletContent"
+										style="width: 100%; float: left;">
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr>
+												<th class="lastActivityColumn">Adminstration</th>
+											</tr>
+											<tr>
+												<td>(right click to open link in new tab)</td>
+											</tr>
+										</table>
+
+
+										<table cellpadding="0" cellspacing="0" border="0">
+											<tr class="alternateRow">
+												<td class="lastActivityColumn"><a href="Process"
+													target="output5">Process Test Reports</a></td>
+											</tr>
+											<tr>
+												<td class="lastActivityColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="lastActivityColumn"><a href="Display"
+													target="output5">Display Test Reports</a></td>
+											</tr>
+											<tr>
+												<td class="lastActivityColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="lastActivityColumn"><a href="View"
+													target="output5">Enter Raw SQL</a></td>
+											</tr>
+											<tr>
+												<td class="lastActivityColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="lastActivityColumn">-</td>
+											</tr>
+											<tr>
+												<td class="lastActivityColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="lastActivityColumn">-</td>
+											</tr>
+											<tr>
+												<td class="lastActivityColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="lastActivityColumn">-</td>
+											</tr>
+											<tr>
+												<td class="lastActivityColumn">&nbsp;</td>
+											</tr>
+											<tr class="alternateRow">
+												<td class="lastActivityColumn">-</td>
+											</tr>
+											<tr>
+												<td class="lastActivityColumn">&nbsp;</td>
+											</tr>
+										</table>
+									</div>
+
+								</div>
+								<!-- end main tab of this main protlet -->
+								<!-- begin help tab of this main portlet -->
+								<div id="help5" style="display: none">...To Do...</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+
+
+			<!-- END Portlet Column 1 -->
+
+
+			<!-- START Portlet Column 2 -->
+<!-- 			<div id="portletColumn2" style="height: auto; float: center"></div>
+ -->			<!-- END Portlet Column 2 -->
+
+
+			<!-- START Portlet Column 3 -->
+			<div id="portletColumn3" style="height: auto; float:left;">
+
+				<!-- START "job Display" Portlet -->
+				<div id="jobDisplay" class="portletLarge2" style="float: left;">
+					<div style="width: 880px; float: left;">
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redLTcnr.gif" height="15" style="" />
+						</div>
+						<script language="javascript" type="text/javascript">link_shadow_up5();</script>
+						<div style="width: 8px; height: 15px; float: left;">
+							<img src="images/redRTcnr.gif" height="15" />
+						</div>
+
+					</div>
+					<div class="" style="width: 879px; float: left;">
+						<div
+							style="width: 878px; height: 628px; border: 1px solid #CBCBCB;"
+							class="portletContent">
+							<div style="width: 865px; height: 628px; float: left;">
+								<div id="viewjobs" style="width: 870px; height: 15px;">
+									<!--<div style="width:370px; height:25px; float:left; padding-top:5px;" align="right">View list by:&nbsp;</div>
+			-->
+									<!-- <div style="width:100px; height:25px; float:left;" align="right"><select name="" id=""><option> --Select-- </option><option> Option 1 </option><option> Option 2 </option></select></div>
+			-->
+								</div>
+
+								<div id="portletContentScroll" style="width: 100%; float: left;">
+									<iframe width="860" height="618" name="output5"></iframe>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END "job Display" Portlet -->
+
+			</div>
+
+			<!-- END Portlet Column 3 -->
+		</div>
+
+		<!-- END Page Content 5-->
+
+		<!-- START Footer -->
+		<div>&nbsp;</div>
+		<div id="footer">
+			<h1 id="footerLogo">guardian Spy</h1>
+		</div>
+		<!-- END Footer -->
+
+	</center>
+
+</body>
+</html>

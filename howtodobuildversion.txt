@@ -1,0 +1,30 @@
+Originally posted by: jacek.pospychala.pl.ibm.com
+
+David,
+it's not directly available as an option, but is easy to do:
+Please add a custom ANT builder, and create a build.xml file that will 
+call BuildNumber task. This task will store build number in a properties 
+file and update it every time it's called. If you want the build number 
+to be increased every time, Eclipse performs build (eg. every file 
+save), you also have to indicate this in builder options.
+Finally properties file can be included in your .jar file or anywhere 
+you want and accessed like any other properties.
+
+In your project properties, on Builders tab add new builder, choose Ant 
+Build, and choose your Build file.
+
+build.xml might look like:
+<?xml version="1.0"?>
+<project name="project" default="default">
+<target name="default">
+<buildnumber file="file.with.buildnumber.properies"/>
+</target>
+</project>
+
+
+
+Please let me know if you have any further questions.
+
+
+that file will now be in WebContent/WEB-INF/file.with.buildnumber.properies in the exploded war file in webapps
+

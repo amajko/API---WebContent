@@ -1,0 +1,60 @@
+D:\Documents and Settings\Administrator\Desktop\software\countlinesofcode>date
+The current date is: Fri 01/18/2013
+Enter the new date: (mm-dd-yy)
+
+D:\Documents and Settings\Administrator\Desktop\software\countlinesofcode>cloc-
+.56 WEB-INF-gw
+     223 text files.
+     222 unique files.
+      67 files ignored.
+
+http://cloc.sourceforge.net v 1.56  T=28.0 s (7.6 files/s, 1875.2 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+HTML                           104           2671           1367          21689
+Java                           101           3780           9479          13138
+XML                              6              1              0            352
+CSS                              1              8              7             14
+-------------------------------------------------------------------------------
+SUM:                           212           6460          10853          35193
+-------------------------------------------------------------------------------
+
+D:\Documents and Settings\Administrator\Desktop\software\countlinesofcode>cloc-1
+.56 *zip
+     287 text files.
+     287 unique files.
+      56 files ignored.
+
+http://cloc.sourceforge.net v 1.56  T=154.0 s (1.8 files/s, 545.3 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+HTML                           209           5584           3391          45124
+Java                            54           3928           9265          12409
+CSS                             10             14              7           2513
+XML                              2              5              7            581
+Javascript                       4            171            103            538
+JSP                              4             39             19            238
+XSLT                             1              4              0             35
+-------------------------------------------------------------------------------
+SUM:                           284           9745          12792          61438
+-------------------------------------------------------------------------------
+
+D:\Documents and Settings\Administrator\Desktop\software\countlinesofcode>cloc-
+.56 WEB-INF-ec
+    1230 text files.
+     632 unique files.
+     722 files ignored.
+
+http://cloc.sourceforge.net v 1.56  T=77.0 s (8.0 files/s, 856.0 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Java                           601          10278           3061          49036
+XML                              7            102             42           1734
+XSD                              9             62             33           1339
+DTD                              1             48             50            129
+-------------------------------------------------------------------------------
+SUM:                           618          10490           3186          52238
+-------------------------------------------------------------------------------

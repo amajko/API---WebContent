@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>ROBOT Listener</title>
+</head>
+<body bgcolor="#660000" text="white" link="yellow" alink="yellow" vlink="yellow">
+
+	<h2>In order to set your ROBOT instance to auto-report to
+		Guardian:</h2>
+	<ol>
+		<li>Download this <a href="GwListener.jar">GwListener.jar</a> to your
+			directories at:
+			<ul>
+				<li> Windows: <font color="yellow">%QSI_HARNESS_HOME%\bin</font></li> or
+				<li> Linux: <font color="yellow">$QSI_HARNESS_HOME/bin</font></li>
+			</ul>
+		</li>
+		<li>Set this environment variable at:
+			<ul>
+				<li>Windows, Control Panel, System, Advanced, Environment
+					Variables, System Variables:<br/>
+					 "<font color="yellow">HARNESS_ROBOT_LISTENER</font>"
+					<br/>to <br/>
+					"<font color="yellow">com.nokia.dddeyet.listener.client.ReportListener:dchiecapp06.hq.navteq.com:8080</font>"
+				</li> <br/>or<br/>
+				<li>Linux: "<font color="yellow">export
+					HARNESS_ROBOT_LISTENER=com.nokia.dddeyet.listener.client.ReportListener:dchiecapp06.hq.navteq.com:8080</font>"
+				</li>
+			</ul>
+		</li>
+		<hr>
+		<li>
+		In order to temporarily shut off any communication to Guardian,<br/>
+		add this argument to runtests.bat "<font color="yellow">-M guardian:ignore</font>"<br/>
+		or<br/>
+		in RIDE gui:<br/>
+		<img alt="" src="images/g.ignore.png">
+		</li>
+		<hr>
+		<li>
+		In order to add the TestAutomation listener from TA department,<br/>
+		add this argument to runtests.bat
+		<br/> "<font color="yellow">--listener com.navteq.ta.listener.robot.ReportListener:10.228.50.102:7080:3DIT:[ANY_EPIC_NAME]:[ANY_TEST_PURPOSE]</font>"<br/>
+		or<br/>
+		in RIDE gui:<br/>
+		<img alt="" src="images/talisten.png"><br/>
+		<a href="http://10.228.50.102:9080/web/guest/details">Reports can be seen here.</a>
+		</li>
+	</ol>
+
+
+</body>
+</html>
